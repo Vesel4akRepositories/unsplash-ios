@@ -60,6 +60,6 @@ extension ImagesListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let rowIndex = indexPath.row
         let instaniatedImage = UIImage(named: photosName[rowIndex])
-        return (instaniatedImage?.size.height ?? 200) + 8 // +8 размер отступа по высоте
+        return instaniatedImage?.size.height ?? 200
     }
 }
