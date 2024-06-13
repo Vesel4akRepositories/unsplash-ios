@@ -33,7 +33,8 @@ class ImagesListViewController: UIViewController {
         let imageName = photosName[rowIndex]
         cell.setBgImage(imageName: imageName)
         cell.setLikeIcon(isLiked: rowIndex % 2 == 0)
-        cell.setDate(dateString: dateFormatter.string(from: .now))
+        let currentDateTime = Date()
+        cell.setDate(dateString: dateFormatter.string(from: currentDateTime))
     }
 }
 
