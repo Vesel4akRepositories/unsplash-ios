@@ -25,9 +25,4 @@ final class ImagesListCell: UITableViewCell {
     func setDate(dateString: String){
         dateLabel.text = dateString
     }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 16, left: 16, bottom: 0, right: 16))
-    }
 }
