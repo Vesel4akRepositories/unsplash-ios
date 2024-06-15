@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036995E72C149D6800E4DB62 /* unsplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 036995E62C149D6800E4DB62 /* unsplash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036996242C15E85F00E4DB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996232C15E85F00E4DB62 /* AppDelegate.swift */; };
+		036996262C15E85F00E4DB62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996252C15E85F00E4DB62 /* SceneDelegate.swift */; };
+		036996282C15E85F00E4DB62 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996272C15E85F00E4DB62 /* ImagesListViewController.swift */; };
+		0369962B2C15E85F00E4DB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036996292C15E85F00E4DB62 /* Main.storyboard */; };
+		0369962D2C15E86100E4DB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0369962C2C15E86100E4DB62 /* Assets.xcassets */; };
+		036996302C15E86100E4DB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0369962E2C15E86100E4DB62 /* LaunchScreen.storyboard */; };
+		036996382C16050400E4DB62 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996372C16050400E4DB62 /* ImagesListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		036995E32C149D6800E4DB62 /* unsplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = unsplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		036995E62C149D6800E4DB62 /* unsplash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unsplash.h; sourceTree = "<group>"; };
+		036996202C15E85F00E4DB62 /* unsplash_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unsplash_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036996232C15E85F00E4DB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036996252C15E85F00E4DB62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		036996272C15E85F00E4DB62 /* ImagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
+		0369962A2C15E85F00E4DB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0369962C2C15E86100E4DB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0369962F2C15E86100E4DB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036996312C15E86100E4DB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036996372C16050400E4DB62 /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		036995E02C149D6800E4DB62 /* Frameworks */ = {
+		0369961D2C15E85F00E4DB62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -26,77 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036995D92C149D6800E4DB62 = {
+		036996172C15E85F00E4DB62 = {
 			isa = PBXGroup;
 			children = (
-				036995E52C149D6800E4DB62 /* unsplash */,
-				036995E42C149D6800E4DB62 /* Products */,
+				036996222C15E85F00E4DB62 /* unsplash_practice */,
+				036996212C15E85F00E4DB62 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		036995E42C149D6800E4DB62 /* Products */ = {
+		036996212C15E85F00E4DB62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				036995E32C149D6800E4DB62 /* unsplash.framework */,
+				036996202C15E85F00E4DB62 /* unsplash_practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		036995E52C149D6800E4DB62 /* unsplash */ = {
+		036996222C15E85F00E4DB62 /* unsplash_practice */ = {
 			isa = PBXGroup;
 			children = (
-				036995E62C149D6800E4DB62 /* unsplash.h */,
+				036996232C15E85F00E4DB62 /* AppDelegate.swift */,
+				036996252C15E85F00E4DB62 /* SceneDelegate.swift */,
+				036996272C15E85F00E4DB62 /* ImagesListViewController.swift */,
+				036996292C15E85F00E4DB62 /* Main.storyboard */,
+				0369962C2C15E86100E4DB62 /* Assets.xcassets */,
+				0369962E2C15E86100E4DB62 /* LaunchScreen.storyboard */,
+				036996312C15E86100E4DB62 /* Info.plist */,
+				036996372C16050400E4DB62 /* ImagesListCell.swift */,
 			);
-			path = unsplash;
+			path = unsplash_practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		036995DE2C149D6800E4DB62 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				036995E72C149D6800E4DB62 /* unsplash.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		036995E22C149D6800E4DB62 /* unsplash */ = {
+		0369961F2C15E85F00E4DB62 /* unsplash_practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 036995EA2C149D6800E4DB62 /* Build configuration list for PBXNativeTarget "unsplash" */;
+			buildConfigurationList = 036996342C15E86100E4DB62 /* Build configuration list for PBXNativeTarget "unsplash_practice" */;
 			buildPhases = (
-				036995DE2C149D6800E4DB62 /* Headers */,
-				036995DF2C149D6800E4DB62 /* Sources */,
-				036995E02C149D6800E4DB62 /* Frameworks */,
-				036995E12C149D6800E4DB62 /* Resources */,
+				0369961C2C15E85F00E4DB62 /* Sources */,
+				0369961D2C15E85F00E4DB62 /* Frameworks */,
+				0369961E2C15E85F00E4DB62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = unsplash;
-			productName = unsplash;
-			productReference = 036995E32C149D6800E4DB62 /* unsplash.framework */;
-			productType = "com.apple.product-type.framework";
+			name = unsplash_practice;
+			productName = unsplash_practice;
+			productReference = 036996202C15E85F00E4DB62 /* unsplash_practice.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		036995DA2C149D6800E4DB62 /* Project object */ = {
+		036996182C15E85F00E4DB62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					036995E22C149D6800E4DB62 = {
+					0369961F2C15E85F00E4DB62 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 036995DD2C149D6800E4DB62 /* Build configuration list for PBXProject "unsplash" */;
+			buildConfigurationList = 0369961B2C15E85F00E4DB62 /* Build configuration list for PBXProject "unsplash_practice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,38 +113,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 036995D92C149D6800E4DB62;
-			productRefGroup = 036995E42C149D6800E4DB62 /* Products */;
+			mainGroup = 036996172C15E85F00E4DB62;
+			productRefGroup = 036996212C15E85F00E4DB62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				036995E22C149D6800E4DB62 /* unsplash */,
+				0369961F2C15E85F00E4DB62 /* unsplash_practice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		036995E12C149D6800E4DB62 /* Resources */ = {
+		0369961E2C15E85F00E4DB62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036996302C15E86100E4DB62 /* LaunchScreen.storyboard in Resources */,
+				0369962D2C15E86100E4DB62 /* Assets.xcassets in Resources */,
+				0369962B2C15E85F00E4DB62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		036995DF2C149D6800E4DB62 /* Sources */ = {
+		0369961C2C15E85F00E4DB62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036996282C15E85F00E4DB62 /* ImagesListViewController.swift in Sources */,
+				036996382C16050400E4DB62 /* ImagesListCell.swift in Sources */,
+				036996242C15E85F00E4DB62 /* AppDelegate.swift in Sources */,
+				036996262C15E85F00E4DB62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		036996292C15E85F00E4DB62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0369962A2C15E85F00E4DB62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0369962E2C15E86100E4DB62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0369962F2C15E86100E4DB62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		036995E82C149D6800E4DB62 /* Debug */ = {
+		036996322C15E86100E4DB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +204,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -196,12 +230,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		036995E92C149D6800E4DB62 /* Release */ = {
+		036996332C15E86100E4DB62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +267,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -255,38 +286,32 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		036995EB2C149D6800E4DB62 /* Debug */ = {
+		036996352C15E86100E4DB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G5W87V8UWG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = unsplash_practice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unsplash Practice";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.v3s314k.unsplash;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.practicum.v3s314k.unsplash-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -296,33 +321,29 @@
 			};
 			name = Debug;
 		};
-		036995EC2C149D6800E4DB62 /* Release */ = {
+		036996362C15E86100E4DB62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G5W87V8UWG;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = unsplash_practice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unsplash Practice";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.v3s314k.unsplash;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.practicum.v3s314k.unsplash-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -335,25 +356,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		036995DD2C149D6800E4DB62 /* Build configuration list for PBXProject "unsplash" */ = {
+		0369961B2C15E85F00E4DB62 /* Build configuration list for PBXProject "unsplash_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036995E82C149D6800E4DB62 /* Debug */,
-				036995E92C149D6800E4DB62 /* Release */,
+				036996322C15E86100E4DB62 /* Debug */,
+				036996332C15E86100E4DB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		036995EA2C149D6800E4DB62 /* Build configuration list for PBXNativeTarget "unsplash" */ = {
+		036996342C15E86100E4DB62 /* Build configuration list for PBXNativeTarget "unsplash_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036995EB2C149D6800E4DB62 /* Debug */,
-				036995EC2C149D6800E4DB62 /* Release */,
+				036996352C15E86100E4DB62 /* Debug */,
+				036996362C15E86100E4DB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 036995DA2C149D6800E4DB62 /* Project object */;
+	rootObject = 036996182C15E85F00E4DB62 /* Project object */;
 }
