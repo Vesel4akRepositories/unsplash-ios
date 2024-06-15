@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030711FE2C1BA76C0074DC86 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030711FD2C1BA76C0074DC86 /* ProfileViewController.swift */; };
+		030712002C1BB1AC0074DC86 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030711FF2C1BB1AC0074DC86 /* SingleImageViewController.swift */; };
 		036996242C15E85F00E4DB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996232C15E85F00E4DB62 /* AppDelegate.swift */; };
 		036996262C15E85F00E4DB62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996252C15E85F00E4DB62 /* SceneDelegate.swift */; };
 		036996282C15E85F00E4DB62 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036996272C15E85F00E4DB62 /* ImagesListViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030711FD2C1BA76C0074DC86 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		030711FF2C1BB1AC0074DC86 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		036996202C15E85F00E4DB62 /* unsplash_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unsplash_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036996232C15E85F00E4DB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		036996252C15E85F00E4DB62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				0369962E2C15E86100E4DB62 /* LaunchScreen.storyboard */,
 				036996312C15E86100E4DB62 /* Info.plist */,
 				036996372C16050400E4DB62 /* ImagesListCell.swift */,
+				030711FD2C1BA76C0074DC86 /* ProfileViewController.swift */,
+				030711FF2C1BB1AC0074DC86 /* SingleImageViewController.swift */,
 			);
 			path = unsplash_practice;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			files = (
 				036996282C15E85F00E4DB62 /* ImagesListViewController.swift in Sources */,
 				036996382C16050400E4DB62 /* ImagesListCell.swift in Sources */,
+				030711FE2C1BA76C0074DC86 /* ProfileViewController.swift in Sources */,
 				036996242C15E85F00E4DB62 /* AppDelegate.swift in Sources */,
+				030712002C1BB1AC0074DC86 /* SingleImageViewController.swift in Sources */,
 				036996262C15E85F00E4DB62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
